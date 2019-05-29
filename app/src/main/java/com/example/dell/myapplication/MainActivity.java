@@ -49,6 +49,6 @@ public class MainActivity extends AppCompatActivity implements IView {
 
     @Override
     public void Error(String error) {
-        Toast.makeText(this, "加载数据是出错" + error, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "加载数据时出错" + error, Toast.LENGTH_SHORT).show();
     }
 }
